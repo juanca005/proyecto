@@ -16,6 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from webapp.views import bienvenido, about,blog_home,single_post  # importo la nueva funcion y agrego las urlpatterns
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  #ruta para acceder al admin de django
+    path('', bienvenido),  #dejo solo comillas para indicar que es la vista que tomara como inicio el proyecto
+    path('blog/about/', about), #ruta acerca de......
+    path('blog/blog_home/', blog_home),  #ruta del home de los post
+    path('blog/blog_home/single_post/', single_post),   #ruta para visualizar un post individual
+
+    # path('index/', bienvenido), # este path es para apuntar la vista de bienvenido
 ]
