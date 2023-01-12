@@ -6,5 +6,10 @@
       <user-name>postgres</user-name>
       <schema-mapping />
     </data-source>
+    <data-source name="db" uuid="2639ea05-3130-4bf6-aab5-b9290718731b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

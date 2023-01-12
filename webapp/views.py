@@ -29,3 +29,5 @@ def blog_home(request):
 def single_post(request):
 
     return render(request, 'blog/blog-post.html')
+
+

@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'webapp'  #agrego la app que se creo con python manage.py starapp webapp que gestiona las paginas iniciales del proyecto como index, contacto, etc
+    'webapp',  #agrego la app que se creo con python manage.py starapp webapp que gestiona las paginas iniciales del proyecto como index, contacto, etc
+    'post',
 ]
 
 MIDDLEWARE = [

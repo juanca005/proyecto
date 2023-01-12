@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CoderProyectoFinal.iml" filepath="$PROJECT_DIR$/.idea/CoderProyectoFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Entregable/.idea/Entregable.iml" filepath="$PROJECT_DIR$/../Entregable/.idea/Entregable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Entregable_MVT/.idea/Entregable_MVT.iml" filepath="$PROJECT_DIR$/../Entregable_MVT/.idea/Entregable_MVT.iml" />
     </modules>
   </component>
 </project>
