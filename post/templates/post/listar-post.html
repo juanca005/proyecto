@@ -1,0 +1,16 @@
+{% extends "post/base.html" %}
+{% block title %}My Blog{% endblock %}
+{% block content %}
+<h1>otro titulo</h1>
+{% for post in posteos %}
+<h2>
+ <a href="ff">
+ {{ post.titulo }} 
+ </a> 
+</h2>
+<p class="date">
+Publicado {{ post.fecha_publicacion }}
+</p>
+{{ post.contenido|truncatewords:30|linebreaks }}
+{% endfor %}
+{% endblock %}

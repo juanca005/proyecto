@@ -17,11 +17,14 @@ from django.contrib import admin
 from django.urls import path,include
 from post.views import PostCreateView
 from webapp.views import bienvenido, about,blog_home,single_post  # importo la nueva funcion y agrego las urlpatterns
-from post.views import crear_post,eliminar_post
+from post.views import crear_post,eliminar_post,crear_post2,post_detalle,listar_post
 urlpatterns = [
 
-    #path('post/crear_post', crear_post),
-    path('post/crear_post', PostCreateView.as_view(), name = 'crear_post'),
+    path('post/crear_post', crear_post2),
+    #path('post/crear_post', PostCreateView.as_view(), name = 'crear_post'),
     path('post/eliminar_post', eliminar_post),
+
+    path('post/listar_post', listar_post),
+    path('<int:id>/', post_detalle, name='post_detalle'),
 
 ]
