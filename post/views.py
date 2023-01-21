@@ -43,7 +43,7 @@ def crear_post2(request):
 
 def listar_post(request):
     posts= Post.published.all()
-    return render (request, "post/listar-post.html", {'posteos': posts})
+    return render (request, "post/blog-home.html", {'posteos': posts})
 
 
 def post_detalle(request, id):

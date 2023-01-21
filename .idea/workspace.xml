@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19bc98a-db36-4ea5-91d2-de38ab030008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/post/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/templates/post/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/templates/post/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +100,7 @@
       <workItem from="1673478164482" duration="8861000" />
       <workItem from="1673563244205" duration="1724000" />
       <workItem from="1673915816624" duration="3889000" />
-      <workItem from="1674323134364" duration="8026000" />
+      <workItem from="1674323134364" duration="9102000" />
     </task>
     <servers />
   </component>
