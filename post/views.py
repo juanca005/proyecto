@@ -38,7 +38,7 @@ def crear_post2(request):
         form.save()
 
     context['form'] = form
-    return render(request, "post/crear-post-2.html", context)
+    return render(request, "post/crear_post.html", context)
 
 
 def listar_post(request):
